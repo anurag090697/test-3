@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #E5E5E5; */
+}
+nav {
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+nav h5 {
+    padding-left: 20px;
+}
+nav p {
+    margin-left: 5px;
+    font-size: large;
+}
+nav input {
+    margin-left: 20px;
+    width: 30%;
+    outline: none;
+    border: none;
+    font-size: larger;
+}
+.top1 {
+    background: linear-gradient(to right, #020000, #E54C3C);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#txbox1 {
+    background-color: rgba(0,0,0, 0.5);
+    padding: 30px;
+    width: 70%;
+    font-size: larger;
+
+}
+.bgmid {
+    display: inline-flex;
+}
+.offer {
+    height: 15vw;
+    background-image: url("black dude.jpg");
+    background-position: center;
+    color: white;
+    background-size: cover;
+    padding: 6% 10%;
+    
+}
+.img3 img {
+    width: 120px;
+    height: 125px;
+    border-style: groove;
+    border-color: #7b7b7b;
+    
+}
+.img3 {
+    padding-left: 5px;
+    color: #ffffff;
+}
+.img3 h3 {
+    margin-top: -5px;
+    padding: 5px;
+    background-color: #606060;
+}
+.trending {
+    background-color: #A0A0A0;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.bottom {
+    background:linear-gradient(to right, rgb(81, 79, 79), black);
+    position: relative;
+    width: 100%;
+    height: 651px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pgs {
+    width: 42vw;
+    padding-top: 50px;
+    padding-left: 20px;
+    color: white;
+}
+.pgs p, h1 {
+    padding: 20px;
+}
+.bottom img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+   
+}
+.bottom2 {
+    background: linear-gradient(to right, #010000, #E44B3C);
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#shoe4:hover{
+    right: 15%;
+        top: 25%;
+        width: 400px;
+        height: 400px;
+}
+#shoe4 {
+    margin-right: 30px;
+    margin-top: 30px;
+    box-shadow: 10px 10px 5px white;
+}
